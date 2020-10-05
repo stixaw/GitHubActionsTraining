@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-/*
-HelloWorld a personlized approach!
-*/
-func HelloWorld() string {
+func greetWorld() string {
 	var name string
 	fmt.Println("What is your name?")
 	fmt.Scanln(&name)
@@ -17,5 +12,5 @@ func HelloWorld() string {
 }
 
 func main() {
-	HelloWorld()
+	greetWorld()
 }
