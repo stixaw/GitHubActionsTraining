@@ -36,5 +36,5 @@ jobs:
       #   run: go test -v .
 
       - name: Echo Build done
-        run: ${{ github.action_path }}/goodbye.sh
+        run: echo "Goodbye"
         shell: bash
