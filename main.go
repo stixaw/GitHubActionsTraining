@@ -7,12 +7,13 @@ import (
 /*
 HelloWorld a personlized approach!
 */
-func HelloWorld() {
+func HelloWorld() string {
 	var name string
 	fmt.Println("What is your name?")
 	fmt.Scanln(&name)
-
-	fmt.Printf("Hello, %s", name)
+	results := ("Hello, " + name)
+	fmt.Printf(results)
+	return results
 }
 
 func main() {
